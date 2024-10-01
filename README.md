@@ -28,10 +28,11 @@ The analysis workflow is broken down into several steps:
 ### Relevant Implementations
 Relevant code for the analysis can be found in the [Scripts](Scripts) directory. The scripts include:
 
-**STEP 0. K-means clustering** for expotype identification in Python.
-**STEP 1. Univariate analysis** of the impact of urban exposomes on expotype assignment (Logistic regression)
-**STEP 2. Stability LASSO** for protein selection
-**STEP 3. Univariate analysis** of expotype-specific effects on obesity outcomes (Linear and Logistic Regression)
+- **STEP 0. K-means clustering** for expotype identification in Python.
+- **STEP 1. Univariate analysis** of the impact of urban exposomes on expotype assignment (Logistic regression)
+- **STEP 2. Stability LASSO** for protein selection
+- **STEP 3. Univariate analysis** of expotype-specific effects on obesity outcomes (Linear and Logistic Regression)
 
-Acknowledgement
+
+### Acknowledgement
 This project is a team collaboration as part of the Computational Epidemiology module (Teammates: Amin Moghaddam, Hanh Lan Bui, Lucie Frechin, Riya Nagar).
